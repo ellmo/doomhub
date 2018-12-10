@@ -26,6 +26,8 @@ gem "webpacker"
 
 group :development, :test do
   gem "capybara", "~> 2.13"
+  gem "factory_bot_rails"
+  gem "ffaker"
   gem "selenium-webdriver"
   gem "simplecov", require: false
 end
@@ -40,6 +42,10 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
+end
+
+group :test do
+  gem "rspec-rails"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
