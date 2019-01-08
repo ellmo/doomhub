@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+echo "[INFO] checking for static vulnerabilities:"
+
+echo "[INFO] ...checking for bundle audit vulnerabilities:"
+bundle exec bundle audit
+
+echo "[INFO] ...checking for brakeman vulnerabilities:"
+bundle exec brakeman
