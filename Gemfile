@@ -16,6 +16,9 @@ gem "rails", "~> 5.1.5"
 
 #=== BACKEND
 gem "pry-rails"
+gem "trailblazer"
+gem "trailblazer-cells"
+gem "trailblazer-rails"
 
 #=== FRONTEND
 gem "jbuilder", "~> 2.5"
