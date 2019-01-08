@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+bundle exec rubycritic --no-browser -p meta/docs/rubycritic app/controllers app/domain app/helpers app/models app/serializers lib
+open meta/docs/rubycritic/overview.html
